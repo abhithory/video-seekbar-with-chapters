@@ -244,7 +244,8 @@ const VideoPlayer = ({ videoSource }) => {
                   <div
                     className="seekbar-progress"
                     style={{ width: `${getProgressChapterWidth(item.index)}%` }}
-                  ></div>
+                  >
+                  </div>
                 </div>
               );
             })}
